@@ -1,10 +1,10 @@
 ---
 applications:
-- name: agarios-ffa
+- name: agarios-ml
   memory: 512M
   disk_quota: 1G
   buildpack: nodejs_buildpack
-  host: agarios-ffa
+  host: agarios-ml
   domain: mybluemix.net
   timeout: 180
   env:
