@@ -1,4 +1,3 @@
-
 var io = require('socket.io-client');
 var ChatClient = require('./chat-client');
 var Canvas = require('./canvas');
@@ -617,3 +616,4 @@ function resize() {
     }
 
     socket.emit('windowResized', { screenWidth: global.screenWidth, screenHeight: global.screenHeight });
+
