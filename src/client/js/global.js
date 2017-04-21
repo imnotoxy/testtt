@@ -31,5 +31,5 @@ module.exports = {
     startPingTime: 0,
     toggleMassState: 0,
     backgroundColor: '#5C246E',
-    lineColor: '#FFFFFF',
+    lineColor: '#000000',
 };
